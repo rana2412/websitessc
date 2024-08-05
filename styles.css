@@ -1,0 +1,110 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #ffffff;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-container {
+    flex: 1;
+    text-align: center;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.nav-list li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-list a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #3a498d, hsl(326, 61%, 64%),#4cc196,#7123); /* Gradient background */
+    padding: 20px; /* Optional: Add padding to give some space around the content */
+    color: #ffffff; /* Ensure text is readable on the gradient */
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero-image {
+    max-width: 60%; /* Adjust this percentage to make the image smaller or larger */
+    height: auto;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.feature-image {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.social-icon img {
+    width: 40px; /* Adjust the size as needed */
+    height: auto;
+    margin: 0 10px;
+    transition: transform 0;
+}
+.social-icon:hover img {
+    transform: scale(1.2);
+    filter: brightness(0.8);
+}
